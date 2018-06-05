@@ -1,11 +1,11 @@
 body,html{
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .landing-page{
     width: 90%;
     background-size: cover;
-    color: #999;
-    background-color: #f2f2f2;
+    color: #5f6368;
+    background-color: #ffffff;
 }
 .title-name{
     left: 0;
@@ -59,36 +59,7 @@ body,html{
   display: flex;
   flex-direction: column-reverse;
 }
-.updates-cl{
-background-color: rgba(0,0,0,.6);
-width: 100%;
-height: 500px;
-margin: 2px;
-border-radius: 5px;
-background-image: url(../images/chemistry-bcg.jpg);
-background-blend-mode: multiply;
-}
-.updates-cl ul h4{
-  color: #ffffff;
-}
-.updates-cl ul a{
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 120%;
-}
-.updates-cl ul a:hover{
-  color: white;
-}
-.updates-title{
-  background-color: #74171A;
-  color: white;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-size: 120%;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  border: 1px solid rgba(255,255,255,.6);
-}
+
 .images-cl{
   background-color: black;
   height: 500px;
@@ -101,18 +72,15 @@ background-blend-mode: multiply;
   .main-div{
     flex-direction: row;
   }
-  .updates-cl{
-    width: 30%;
-  }
   .images-cl{
-    width: 70%;
+    width: 100%;
   }
 }
 .about-and-head{
   display: flex;
   width: 100%;
   flex-direction: column;
-  color: #898989;
+  color: #5f6368;
 }
 .about-dep{
   width: 100%;
@@ -262,6 +230,7 @@ background-blend-mode: multiply;
   border-radius: 5px;
   border: 1px solid;
   color: #e5e5e5;
+  display: none;
 }
 .carousel-caption h3{
   text-transform: uppercase;
