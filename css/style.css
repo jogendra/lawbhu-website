@@ -104,15 +104,18 @@ body,html{
 .about-dep p{
   border: 1px solid #e7e7e7;
   border-radius: 8px;
-    padding: 1%;
-    font-size: 120%;
-    letter-spacing: 1px;
-    font-weight: 300;
+    padding: 2%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .dept-head h4{
   width: 100%;
   text-align: center;
 }
+
+.dept-head h3 {
+font-size: 100%;
+}
+
 .dept-container{
   border: 1px solid black;
   border-radius: 5px;
@@ -142,11 +145,11 @@ body,html{
   flex-direction: row;
 }
 .about-dep{
-  width: 75%;
+  width: 70%;
   margin: 2%;
 }
 .dept-head{
-  width: 25%;
+  width: 30%;
   margin: 2%;
 }
 .about-dep h4 {
@@ -533,4 +536,43 @@ display: none;
     font-size: 100%;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+
+/* Using panels to display blog date */
+.panel.date {
+    margin: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+.panel.date .month {
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel.date .day {
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.panel-danger>.panel-heading {
+  color: #ffffff;
+    background-color: #8F0081;
+    border-color: #8F0081;
+}
+
+.text-danger {
+  color: #8F0081;
+}
+
+.panel-danger {
+  border-color: #e7e7e7;
+}
+
+.panel-contents {
+  overflow-y: scroll;
+  height: 400px;
 }
