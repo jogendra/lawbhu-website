@@ -2,7 +2,7 @@ body,html{
   background-color: #ffffff;
 }
 .landing-page{
-    width: 90%;
+    width: 80%;
     background-size: cover;
     color: #5f6368;
     background-color: #ffffff;
@@ -62,7 +62,7 @@ body,html{
 
 .images-cl{
   background-color: black;
-  height: 500px;
+  height: 550px;
   width: 100%;
   margin: 2px;
   border-radius: 5px;
@@ -90,7 +90,7 @@ body,html{
   border-top: none;
 }
 .about-dep h4,.dept-head h4{
-  background-color: #74171A;
+  background-color: #8F0081;
   color: white;
   padding: 10px;
   font-weight: 400;
@@ -102,9 +102,12 @@ body,html{
   text-align: center;
 }
 .about-dep p{
-  font-size: 120%;
-  letter-spacing: 1px;
-  font-weight: 300;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+    padding: 1%;
+    font-size: 120%;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 .dept-head h4{
   width: 100%;
@@ -147,7 +150,7 @@ body,html{
   margin: 2%;
 }
 .about-dep h4 {
-    width: 40%;
+    width: 100%;
     text-align: left;
 }
 .dept-head h4{
@@ -243,7 +246,7 @@ body,html{
   font-weight: 300;
 }
 .carousel-inner .item img{
-  height: 500px;
+  height: 550px;
 }
 .about-program-p{
   font-weight: 400;
