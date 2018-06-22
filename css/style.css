@@ -2,11 +2,17 @@ body,html{
   background-color: #ffffff;
 }
 .landing-page{
-    width: 80%;
+    width: 95%;
     background-size: cover;
     color: #5f6368;
     background-color: #ffffff;
 }
+@media screen and (min-width:768px){
+.landing-page {
+  width: 80%;
+}
+}
+
 .title-name{
     left: 0;
     position: absolute;
@@ -211,7 +217,8 @@ font-size: 100%;
 }
 .copyright-foot{
     width: 100%;
-    background-color: #74171A;
+    background-color: #8F0081;
+    color: #ffffff;
     text-align: center;
     border-radius: 5px;
     font-size: 90%;
@@ -452,9 +459,16 @@ table{
 display: none;
 }
 .mob-logo{
-display: block;
+display: none;
 }
+.dep-logo {
+  display: none;
+}
+
 @media screen and (min-width:768px){
+  .dep-logo {
+    display: flex;
+  }
   .des-logo{
 display: block;
 height: 150px;
