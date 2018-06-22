@@ -631,3 +631,11 @@ h2 {
 #testimonial .carousel-indicators {
     bottom: -50px;
 }
+.dean-image {
+  float: left;
+  margin-right: 2%;
+}
+
+.read_more {
+  font-size: 130%;
+}
