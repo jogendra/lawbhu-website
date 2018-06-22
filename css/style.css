@@ -639,3 +639,22 @@ h2 {
 .read_more {
   font-size: 130%;
 }
+
+.services_section {
+  margin-bottom: 1%;
+}
+
+.text-primary {
+  color: #8F0081;
+}
+
+.text-muted {
+  text-align: justify;
+  padding: 5%;
+}
+
+.fa-icons {
+  border: 2px solid;
+padding: 10%;
+border-radius: 10%;
+}
