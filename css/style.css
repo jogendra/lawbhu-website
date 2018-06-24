@@ -692,3 +692,43 @@ font-size: 120%;
   color: white;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+
+    .brand-pills  li  a {
+        border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    }
+
+    li.brand-nav.active a:after{
+    	content: " ";
+    	display: block;
+    	width: 0;
+    	height: 0;
+    	border-top: 20px solid transparent;
+    	border-bottom: 20px solid transparent;
+    	border-left: 9px solid #8F0081;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -20px;
+    	left: 100%;
+    	z-index: 2;
+    }
+}
+
+.prof-name-top {
+  background-color: rgba(0,0,0,0.02);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover {
+  background-color: #8F0081;
+}
+.nav-pills li a {
+  color: #5f6368;
+}
+
+.tab-content {
+  text-align: justify;
+}
