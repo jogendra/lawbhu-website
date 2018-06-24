@@ -732,3 +732,34 @@ font-size: 120%;
 .tab-content {
   text-align: justify;
 }
+
+.prof-quick-look {
+padding: 3%;
+}
+
+.prof-quick-look img {
+  display: table;
+  margin: 0 auto;
+
+}
+
+.prof-quick-look h4 {
+text-align: center;
+}
+
+.prof-quick-look p {
+  text-align: center;
+}
+
+.prof-quick-look a {
+  color: #5f6368;
+}
+
+.prof-quick-look a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.nav-tabs a {
+  /* color: #8F0081; */
+}
