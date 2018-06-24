@@ -524,9 +524,6 @@ display: none;
     font-size: 75%;
   }
 }
-.top-bar p:hover{
-  color: #337ab7;
-}
 .div-left .image-div .former-hod-img, .div-right .image-div .former-hod-img{
   height: 100px;
   width: 100px;
@@ -671,4 +668,27 @@ h2 {
   border: 2px solid;
 padding: 10%;
 border-radius: 10%;
+}
+
+/* About us */
+
+.para-div {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 1%;
+  margin-bottom: 1%;
+}
+
+.para-div h3 {
+text-align: center;
+}
+
+.para-div p {
+  padding: 0 2%;
+padding-bottom: 2%;
+font-size: 120%;
+}
+
+.top-bar p a {
+  color: white;
+  text-decoration: none;
 }
