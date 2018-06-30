@@ -833,3 +833,35 @@ text-align: center;
         display: table;
         padding: 1%;
   }
+
+  .navbar-law {
+    background-color: #8F0081;
+    color: #ffffff;
+  }
+
+  .navbar-law .navbar-nav li a {
+    color: #ffffff;
+  }
+
+  .navbar-law .navbar-brand {
+    color: #ffffff;
+  }
+
+  .navbar-inverse {
+    border: none;
+  }
+
+  .law-right {
+    margin-right: 20px;
+  }
+
+@media screen and (max-width: 768px) {
+  .law-right {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-header {
+    display: none;
+  }
+}
