@@ -819,3 +819,17 @@ text-align: center;
 		top:-20px;
 		width: 100%;
 	}
+
+.pyqp {
+  margin-bottom: 2%;
+}
+  .pyqp img {
+    border: 1px solid #000;
+        border-radius: 4px;
+  }
+
+  .pyqp p {
+    margin: 0 auto;
+        display: table;
+        padding: 1%;
+  }
