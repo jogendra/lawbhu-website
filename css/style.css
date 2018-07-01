@@ -867,3 +867,11 @@ text-align: center;
 .important-links a {
   color: #ffffff;
 }
+
+.publications h4 {
+padding-left: 2%;
+}
+
+.publications ul li {
+  font-size: 120%;
+}
