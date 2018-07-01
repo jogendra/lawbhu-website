@@ -875,16 +875,3 @@ padding-left: 2%;
 .publications ul li {
   font-size: 120%;
 }
-
-.sitemap h4 {
-padding-left: 2%;
-}
-
-.sitemap ul li {
-  list-style:url();
-  font-size: 120%;
-}
-
-.sitemap ul {
-padding-left: 5%;
-}
