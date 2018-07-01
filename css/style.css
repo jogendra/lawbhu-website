@@ -875,3 +875,23 @@ padding-left: 2%;
 .publications ul li {
   font-size: 120%;
 }
+
+.alum-hr {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.tab-pane h4 {
+  text-transform: uppercase;
+}
+
+.connect-us-alum {
+  border: 1px solid;
+    border-radius: 4px;
+    margin: 1%;
+}
+
+.connect-us-alum p img {
+  margin-left: 2%;
+  border-radius: 4px;
+}
