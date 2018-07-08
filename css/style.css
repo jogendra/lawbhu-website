@@ -784,7 +784,7 @@ text-align: center;
     	padding: 0px;
 		position: relative;
 		overflow: hidden;
-		height: 400px;
+		height: 200px;
 	}
 	.cuadro_intro_hover:hover .caption{
 		opacity: 1;
@@ -809,7 +809,7 @@ text-align: center;
 	}
 	.cuadro_intro_hover .blur{
 		background-color: rgba(0,0,0,0.7);
-		height: 400px;
+		height: 200px;
 		z-index: 5;
 		position: absolute;
 		width: 100%;
@@ -818,7 +818,7 @@ text-align: center;
 		z-index: 10;
 		color: #fff;
 		position: absolute;
-		height: 500px;
+		height: 200px;
 		text-align: center;
 		top:-20px;
 		width: 100%;
