@@ -927,3 +927,8 @@ overflow: scroll;
   text-transform: none;
   padding: 2%;
 }
+
+.alum-position {
+  font-style: italic;
+    font-weight: 300;
+}
