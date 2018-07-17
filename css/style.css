@@ -948,3 +948,10 @@ letter-spacing: 1px;
   background-color: #337ab7;
   color: white;
 }
+
+.law-journal-heading {
+  text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+        color: #8F0081;
+}
