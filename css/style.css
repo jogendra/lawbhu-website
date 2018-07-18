@@ -743,7 +743,8 @@ padding: 3%;
 .prof-quick-look img {
   display: table;
   margin: 0 auto;
-
+  border: 1px solid;
+  border-radius: 4px;
 }
 
 .prof-quick-look h4 {
