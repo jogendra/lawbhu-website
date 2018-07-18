@@ -667,6 +667,7 @@ border: 1px solid;
 .text-muted {
   text-align: justify;
   padding: 5%;
+  display: none;
 }
 
 .fa-icons {
@@ -956,4 +957,13 @@ letter-spacing: 1px;
     text-transform: uppercase;
     letter-spacing: 2px;
         color: #8F0081;
+}
+
+.text-center a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-box {
+  margin-bottom: 10%;
 }
