@@ -787,7 +787,7 @@ text-align: center;
     	padding: 0px;
 		position: relative;
 		overflow: hidden;
-		height: 200px;
+		height: 300px;
 	}
 	.cuadro_intro_hover:hover .caption{
 		opacity: 1;
@@ -802,7 +802,7 @@ text-align: center;
 	}
 	.cuadro_intro_hover .caption{
 		position: absolute;
-		top:150px;
+		top:250px;
 		-webkit-transition:all 0.3s ease-in-out;
 		-moz-transition:all 0.3s ease-in-out;
 		-o-transition:all 0.3s ease-in-out;
