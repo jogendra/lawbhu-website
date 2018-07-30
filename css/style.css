@@ -789,6 +789,8 @@ text-align: center;
 		position: relative;
 		overflow: hidden;
 		height: 200px;
+    border: 1px solid;
+    border-radius: 16px;
 	}
 	.cuadro_intro_hover:hover .caption{
 		opacity: 1;
