@@ -789,8 +789,6 @@ text-align: center;
 		position: relative;
 		overflow: hidden;
 		height: 200px;
-    border: 1px solid;
-border-radius: 16px;
 	}
 	.cuadro_intro_hover:hover .caption{
 		opacity: 1;
@@ -976,4 +974,12 @@ letter-spacing: 1px;
     margin: 2%;
     border: 1px solid;
     border-radius: 4px;
+}
+
+.sysllabus-icons {
+  border: 2px solid;
+padding: 10%;
+border-radius: 10%;
+margin: 5% auto;
+display: table;
 }
