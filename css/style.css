@@ -471,6 +471,10 @@ display: none;
 @media screen and (min-width:768px){
   .dep-logo {
     display: flex;
+    background-image: url(../images/unnamed.jpg);
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+    background-size: cover;
   }
   .des-logo{
 display: block;
@@ -991,4 +995,8 @@ display: table;
 .pyqp .fa-icons {
   margin: 2% auto;
     display: table;
+}
+
+.navbar-default .navbar-nav li a {
+  font-size: 105%;
 }
