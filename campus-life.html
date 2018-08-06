@@ -45,6 +45,9 @@ function checkTime(i) {
   padding-left: 2%;
   padding-top: 2%;
 }
+.carousel-inner .item img {
+  height: 681px;
+}
 </style>
 </head>
 <body>
@@ -111,8 +114,60 @@ function checkTime(i) {
   </div>
 <!-- mail section -->
 <!-- Top image -->
-<div class="top-haeding-image" style="margin-bottom:1%;">
-  <img src="images/1.jpeg" alt="Law BHU" style="width:100%;" height="400">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="images/Campus1.jpg" alt="Law BHU" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus3.jpeg" alt="Law" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus5.jpg" alt="Law" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus6.jpg" alt="Law" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus7.jpg" alt="Law" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus8.jpg" alt="Law" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="images/Campus9.jpg" alt="Law" style="width:100%;">
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 <!-- / top image -->
 
@@ -120,20 +175,26 @@ function checkTime(i) {
     <h3>Campus Life</h3>
     <hr>
     <h4>INTELLECTUAL SHARING</h4>
-    <p>Faculty of Law serves as a reservoir of intellectual minds learning, exploring and researching a plethora of interdisciplinary subjects. The closely knit departments of the University facilitate the exclusive exchange of ideas, thoughts and consultations among students, research scholars, and faculty members across the academic units of the BHU family, an advantage no other university can boast of. The integrated working of the university enables students to join (programs that equip them for the like Foreign Languages, courses at the Faculty of Visual Arts,
-Faculty of Performing Arts concurrently. </p>
+    <p>Law students have a zeal for moots and debates. They have secured positions in national moot courts and made us proud. Faculty of Law serves as a reservoir of intellectual minds learning, exploring and researching a plethora of interdisciplinary subjects. The closely knit departments of the University facilitate the exclusive exchange of ideas, thoughts and consultations among students, research scholars, and faculty members across the academic units of the BHU family, an advantage no other university can boast of. The integrated working of the university enables students to join (programs that equip them for the like Foreign Languages, courses at the Faculty of Visual Arts, Faculty
+of Performing Arts concurrently.
+</p>
     <h4>SPORTS AND RECREATION</h4>
-    <p>Several playgrounds, stadium, Indoor stadium, Amphitheatre, Tennis courts, Squash courts, Volleyball courts, Basketball courts, swimming pool, mountaineering club, Flying club, etc. are there to cater to the sportspersons needs. The university facilitates its students with able coaches and practice space to compete at the various levels of tournaments. Besides Shivaji Hall Gymnasium, there are several other facilitations like Mountaineering Club, Swimming Pool, Stadiums, Athletic Tracks, and Playgrounds for maintaining the physical wellness of the university community.</p>
+    <p>Several playgrounds, stadia, Indoor stadia, Amphitheatre, Tennis courts, Squash courts, Volleyball courts, Basketball courts, swimming pool, mountaineering club, Flying club, etc. are there to cater to the sportspersons needs. The university facilitates its students with able coaches and practice space to compete at the various levels of tournaments. Besides Shivaji Hall Gymnasium, there are several other facilitations like Mountaineering Club, Swimming Pool, Stadiums, Athletic Tracks, and Playgrounds for maintaining the physical wellness of the university community.</p>
     <h4>LIBRARY</h4>
-    <p>The Central Library is the ultimate heaven, for any person in search of knowledge, with an unimaginable 1.5 million books, numerous journals, magazines, weeklies, newspapers in different languages; and to add to that, 115 departmental libraries. The University also provides the facility of Cyber Library within the campus.  The accessibility to this behemothic pool of information is probably the most sought after advantage at faculty of law, BHU.</p>
+    <p>The Central Library is the ultimate heaven, for any person in search of knowledge, with an unimaginable 1.5 million books, numerous journals, magazines, weeklies, newspapers in different languages; and to add to that, 115 departmental libraries. The University also provides the facility of Cyber Library within the campus.  Library also provides access to large set of online national and foreign resources. The accessibility to this behemothic pool of information is probably the most sought after advantage at faculty of law, BHU.</p>
     <h4>HEALTH CARE</h4>
-    <p>There are health centres for students and staff members located all across the Campus providing health care services 24X7. The S.S. Hospital in the University is equipped with the latest technology and modern treatment facilities. These are available for free(concessional rates) to the students, scholars and staff members.</p>
+    <p>There are health centres for students and staff members located all across the Campus providing health care services 24X7. The S.S. Hospital in the University is equipped with the latest technology and modern treatment facilities. These are available for free(concessional rates) to the students, scholars and staff
+members.</p>
     <h4>TOURIST ATTRACTIONS</h4>
     <p>BHU is a smaller world with all cultures, nationalities, and diversities coming together to create the wealth of knowledge. The Vishwanath Temple is one of the major places of attraction in the University not only for the university community, but for the tourists from across the globe. Bharat Kala Bhawan Museum is another cultural attraction housing a host of Indian art forms exhibiting brilliance throughout the year. Madhuban is one of the parks in the Campus. No alumni of the University will forget the moments they spent in this beautiful part during their student life in the Campus.</p>
-    <h4>OTHER SERVICES</h4>
-    <p>Proctorial services maintaining the law and order within the campus plays vital role in controlling social menace like ragging, Hostels, Transportation for students, 24 hour electric and power supply, over 6 branches of nationalized Banks, ATMs, 3 Post Offices, Telephone exchange, Railway Reservation Centre,  and a lot of other facilities provided exclusively for Staff and Students.</p>
     <h4>CONNECTIVITY</h4>
     <p>The Campus, located in the heart of the city with life bubbling with young energy, eateries, and its proximity to the famous Ghats of Varanasi, give BHU the locational advantage with scenic beauty and ample recreation at its doorstep. It is well connected with other parts of the world through Varanasi Airport, Railway Station, Bus Station besides having its own Airstrip for micro-light planes and Helicopters.</p>
+    <h4>HOSTELS</h4>
+    <p>The Law school provides separate hostel facilities to boys and girls. There are three hostels for boys namely Dr. Bhagwan Das Hostel, Chanakya Hostel and Dr. B R Ambedkar Hostel. Girls are accommodated in Triveni Hostel which is an amalgamation of 6 hostels, providing accommodation to girls of other faculties as well. The university is committed to zero tolerance to ragging inside the campus.</p>
+    <h4>CULTURAL FESTS</h4>
+    <p>'Srijan' is annual cultural festival of Law School BHU. Students showcase their talents and winners of all events in 'Srijan' represent the faculty at university level cultural festival called 'Spandan'. Both the festivals are celebrated with enthusiasm. Judges witness amazing talents every year.</p>
+    <h4>OTHER SERVICES</h4>
+    <p>Proctorial services maintaining the law and order within the campus plays vital role in controlling social menace like ragging, Hostels with wifi, Transportation for students, 24 hour electric and power supply, over 6 branches of nationalized Banks, ATMs, 3 Post Offices, Telephone exchange, Railway Reservation Centre,  and a lot of other facilities provided exclusively for Staff and Students.</p>
   </div>
 
 <div class="copyright-foot">
@@ -160,32 +221,5 @@ Faculty of Performing Arts concurrently. </p>
           });
   });
   </script>
-  <!-- Smooth Scrolling -->
-  <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 </body>
 </html>
