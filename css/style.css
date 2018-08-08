@@ -72,7 +72,7 @@ ul li {
 
 .images-cl{
   background-color: black;
-  height: 550px;
+  height: 500px;
   width: 100%;
   margin: 2px;
   border-radius: 5px;
@@ -999,4 +999,8 @@ display: table;
 
 .navbar-default .navbar-nav li a {
   font-size: 105%;
+}
+
+.navbar {
+margin-bottom: 0;
 }
