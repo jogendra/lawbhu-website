@@ -316,7 +316,7 @@ font-size: 100%;
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #74171A;
+    border: 1px solid #8F0081;
     border-radius: 5px;
     text-align: center;
     color: rgba(0,0,0,.7);
@@ -325,11 +325,11 @@ font-size: 100%;
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #74171A;
+    border: 1px solid #8F0081;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #74171A;
+    background-color: #8F0081;
 
 }
 .btn-default:active .filter-button:active
