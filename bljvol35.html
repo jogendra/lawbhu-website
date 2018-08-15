@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Jogendra Singh, 4th Year Engg. Physics, IIT(BHU) Varanasi">
+        <!-- Open Graphic Tags -->
+    <meta property="fb:app_id" content="" />
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" type="image/png" href="" sizes="32x32">
+    <link rel="icon" type="image/png" href="" sizes="16x16">
+    <link rel="shortcut icon" href="">
+    <meta name="theme-color" content="#000000">
+    <title>Law School, Banaras Hindu University, Varanasi</title>
+    <link rel="icon" href="images/law_logo.png"/>
+
+  <!-- CSS files -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
+<!-- Script -->
+<script type="text/javascript">
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = "<div style='font-size: 14pt; font-weight: bold; color: #000;'>" + h+":"+m+":"+s + "</div>";
+    var t = setTimeout(function(){startTime()},500);
+}
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+<style>
+h4 {
+  padding-left: 2%;
+}
+ol li {
+  font-size: 120%;
+}
+</style>
+</head>
+<body>
+  <!-- Top Nav -->
+  <nav class="navbar navbar-inverse navbar-law">
+  <div class="container-fluid">
+    <div class="navbar-header top-header" style="width:20%;">
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right law-right">
+      <li><a href="sitemap.html">Sitemap</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+  <!-- /Top Nav -->
+    <div class="dep-logo">
+      <a href="index.html"><img class="des-logo" src="images/law-head-logo-3x.png"></a>
+      <a href="index.html"><img class="mob-logo" src="images/law_logo.png"></a>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand title-dep" href="#">Faculty of Law</a>
+      </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="history-vision.html">History & Vision</a></li>
+            <li><a href="deans-desk.html">Dean's Desk</a></li>
+            <li><a href="content/BHU_ACT.pdf" target="_blank">BHU ACT</a></li>
+            <li><a href="content/Committees_2018.pdf" target="_blank">Committees</a></li>
+          </ul>
+        </li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Students<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="syllabus.html">Syllabus</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="medical-benefits.html">Medical Benefits</a></li>
+            <!-- <li><a href="previous-question-paper.html">Previous Question Paper</a></li> -->
+          </ul>
+        </li>
+        <li><a href="legal-aid-clinic.html">Legal Aid Clinic</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Library<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="library.html">About Library</a></li>
+          <li><a href="library-resources.html">Library Resources</a></li>
+          <li><a href="library-regulations-and-team.html">Library Regulation and Team</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Internship and Placement<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="placement-deans-message.html">Dean's Message</a></li>
+          <li><a href="placement-committiee.html">Placement Committee</a></li>
+            <li><a href="content/PLACEMENT_BROCHURE.pdf" target="_blank">Placement Brochure</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Publications<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="banaras-law-journals.html">Banaras Law Journal</a></li>
+          <li><a href="research-projects-and-books.html">Research Projects and Books</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+          </ul>
+        </li>
+        <li><a href="alumni.html">Alumni</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!-- /Navbar -->
+<!-- Landing page container -->
+<div class="container landing-page">
+  <div class="main-div">
+  </div>
+
+  <div class="para-div">
+    <h3>Banaras Law Journal Vol. 32 & 33</h3>
+    <hr>
+    <h4>ARTICLES</h4>
+    <ul>
+      <a href="blj2006-072008-09/BLJ_2006/2_Prof.%20I.G.Ahmad.doc" target="_blank"><li>Death Sentence And Criminal Justice In Human Rights Perspective - I.G.Ahmed</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/3_SRS%20BEDI.shs" target="_blank"><li>Grundnorm of Human Dignity as A Judicial Ideology - S.R.S.Bedi</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/4_BC_NIRMAL_NATURAL%20LAW.doc" target="_blank"><li>Natural Law, Human Rights and Justice Some Reflections on Finnis�s Natural Law Theory - B.C.Nirmal</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/5_BK%20AGRWAL.shs" target="_blank"><li>Practice of Justice from the Perspective Of Hermeneutics: Gadamer�s  Lessons From Plato�s Republic - Binod Kumar Agarwala</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/6_MKVyas.doc" target="_blank"><li>Concept of Justice, Utilitarianism and  Other Modern Approaches - M.K.Vyas</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/7_THE%20IDEAL%20OF%20DHARMA.doc" target="_blank"><li>The Ideal of Dharma  or Justice in Indian Culture - R.N.Sharma</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/8_RAVINDRA.doc" target="_blank"><li>Hart�s Concept of Law and Justice - Ravindra Kumar Singh</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/9_THE%20PROTEAN%20FACE%20OF%20JUSTICE-Dharmendra.doc" target="_blank"><li>The Protean Face of Justice (From Plato to Amartya Sen) - Dharmendra Kumar Mishra, Smt.Anshu Mishrya</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/10_Prof.%20O%20Fatula.shs" target="_blank"><li>Constitutional Impediments to Proper Administration of Justice in Nigeria - Olugbemi Fatula</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/11_Dr.S%20K%20Gupta%20Concept%20of%20Environmental%20Justice.doc" target="_blank"><li>Concept of Environmental Justice - Shailendra Kumar Gupta</li></a>
+    </ul>
+    <h4>BOOK REVIEWS</h4>
+    <ul>
+      <a href="blj2006-072008-09/BLJ_2006/12_M.N.Haque.doc" target="_blank"><li>The Muslim of India by Tahir Mahmood: Third Edition 2002 (New Version), LexizNexis Butterworths, New Delhi - M.N.Haque</li></a>
+      <a href="blj2006-072008-09/BLJ_2006/13_C%20P%20UPADHYAY%20Book%20Review.shs" target="_blank"><li>Avatar Singh , Company Vidhi Ed Parichaya    (Fourth Edition 2006), Eastern Book Company Lucknow,Pp.223, Price Rs.125 - C.P.Upadhyay</li></a>
+    </ul>
+  </div>
+
+<div class="copyright-foot">
+  <p>Copyright ©2018 Faculty of Law (Banaras Hindu University), Varanasi - 221005</p>
+</div>
+</div>
+
+  <!-- Javascript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- On Hover Dropdown -->
+  <script>
+  $(function(){
+  $(".dropdown").hover(
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          },
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          });
+  });
+  </script>
+  <!-- Smooth Scrolling -->
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>
